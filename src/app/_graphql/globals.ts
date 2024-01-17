@@ -12,10 +12,11 @@ export const HEADER_QUERY = `
 query Header {
   ${HEADER}
 }
-`
+` 
 
 export const FOOTER = `
   Footer {
+    copyright
     navItems {
       link ${LINK_FIELDS({ disableAppearance: true })}
 		}
